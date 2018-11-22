@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec35fcb5ee221cb4ebc51f8a4d299102, type: 3}
+  m_Name: Unit_Big
+  m_EditorClassIdentifier: 
+  spellCost: 5
+  UiSprite: {fileID: 21300000, guid: c9724279beb5de945b6fbfc782420c82, type: 3}
+  unitCount: 5
+  health: 20
+  speed: 0.4
+  damage: 4
+  damageRadius: 0
+  attackRate: 2
+  attackRadius: 0.5
+  agroRadius: 0.6
+  isFlying: 0
+  isRanged: 0
+  renderer:
+    mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+    material: {fileID: 2100000, guid: 9e8ad57d67a9df747acde3dbe96d9ac0, type: 2}
+    subMesh: 0
+    castShadows: 0
+    receiveShadows: 0
+  devNote: block standart unit
